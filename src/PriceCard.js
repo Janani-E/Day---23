@@ -20,6 +20,7 @@ function PriceCard(props) {
               <li className={props.data.isReports?"":"text-muted"}><span className="fa-li"><i className={props.data.isReports?"fas fa-check":"fas fa-times"}></i></span>{props.data.reports}</li>
             </ul>
             <div className="d-grid">
+                
               <a href="https://cdnjs.com/libraries/font-awesome" className="btn btn-primary text-uppercase">Button</a>
             </div>
           </div>
